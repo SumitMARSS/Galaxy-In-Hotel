@@ -134,7 +134,7 @@ const Contact = () => {
                 />
                 <p>
                   Name: <b>Mohan Kumar</b> <br/>
-                  Mobile No: <b>8826190381</b>
+                  Mobile No: <b>8210442057</b>
                 </p>
               </Col>
               <Col md={4} className="team-member">
