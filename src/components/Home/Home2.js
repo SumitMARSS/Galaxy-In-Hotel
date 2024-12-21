@@ -127,6 +127,7 @@ import Particle from "../Particle";
 import { TbBrandBooking } from "react-icons/tb";
 import mohanImg from "../../Assets/mohanImg.png";  // Add actual image path for owner
 import gudduImg from "../../Assets/gudduImg.png";  // Add actual image path for manager
+import pankajImg from "../../Assets/pankaj_photo.jpg";
 
 function Home2() {
   const [isSmallScreen, setIsSmallScreen] = useState(false);
@@ -205,7 +206,7 @@ function Home2() {
           <Col md={12} className="home-about-social">
             <h1>FIND US ON</h1>
             <Row>
-              <Col md={6} className="team-member">
+              <Col md={4} className="team-member">
                 <h3>Manager</h3>
                 <img
                   src={mohanImg} // Add the path to the owner's image
@@ -223,7 +224,25 @@ function Home2() {
                   Mobile No: <b>8826190381</b>
                 </p>
               </Col>
-              <Col md={6} className="team-member">
+              <Col md={4} className="team-member">
+                <h3>Manager</h3>
+                <img
+                  src={pankajImg} // Add the path to the owner's image
+                  alt="Pankaj Kumar"
+                  style={{
+                    width: "150px",
+                    height: "150px",
+                    borderRadius: "50%",
+                    marginRight: "15px",
+                    objectFit: "cover",
+                  }}
+                />
+                <p>
+                  Name: <b>Pankaj Kumar</b> <br/>
+                  Mobile No: <b>7004144750</b>
+                </p>
+              </Col>
+              <Col md={4} className="team-member">
                 <h3>Ass. Manager</h3>
                 <img
                   src={gudduImg} // Add the path to the manager's image
